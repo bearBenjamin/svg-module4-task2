@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: coral;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+svg path {
+    color: #ffffff;
+}
+
+.large-elem,
+.small-elem {
+  transform-origin: center center;
+  will-change: transform;
+}
+
+.loader {
+    margin-top: 15rem;
+    position: relative;
+    width: 50px;
+    height: 24px;
+}
+
+.small-elem {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+}
+
